@@ -12,4 +12,13 @@ El kernel es un programa como embebido con esteroides, ya que se encarga de los 
 ps fax | grep 1485
 strace ps -fax 2>&1 | teee ps.strace
 strace ps -fax 2>&1 | teee ps.strace
+ps faxu | more
+cat /proc/3546/cmdlin
+ps fax | grep gsd-disk-utility-notify
 ```
+
+En linux le decimos ligas simbólicas.
+Las ligas duras enlacan la etiqueta al area de disco utilizado.
+
+El archivo `stat` nos muestra información de memoria del proceso.
+
