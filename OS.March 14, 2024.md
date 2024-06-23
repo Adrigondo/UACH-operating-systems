@@ -29,17 +29,11 @@ THe programm give the orden `open("pepito.txt"")`. This orden gets to the kernel
 
 The kernel, first, wil resolve the route.
 
-| ----------------------------------------------–-- |
-| In UNIX, the disk are disposable in directories.  |
-| The disk is associated to a directory. This is    |
-| called *mount disks*. The command `mounth`        |
-| retrieves all the disks mounted.                  |
-| Using the command `tree` we can see all our files. |
-| > All in UNIX are devices.                        |
-| with `ls -la /dev/disk/by-partitionid/` we can    |
-| see our disks                                     |
-| with `ls -la /dev/nvme0` we can see our diskes    | 
-| ------------------------------------------------– |
+> * In UNIX, the disk are disposable in directories.
+> * The disk is associated to a directory. These are called *mount disks*.
+> * The command `mounth` retrieves all the disks mounted.
+> * Using the command `tree` we can see all our files. 
+> * All in UNIX are directories. With `ls -la /dev/disk/by-partitionid/` we can see our disks with `ls -la /dev/nvme0` we can see our devices.     
 
 It will talk with VFS who is gonna talk with BTFS who is gonna talk with the bus PCI and it will talk with nvme whose contain the driver of the disc `dev/nvme0n1p2`. 
 

@@ -22,3 +22,15 @@ Las ligas duras enlacan la etiqueta al area de disco utilizado.
 
 El archivo `stat` nos muestra información de memoria del proceso.
 
+Nuevo
+Listo
+Ejecución
+Bloqueado (S, sleeping in an interrupted way)
+Terminado
+
+El estado terminado sirve para realizar todos los procesos de limpieza.
+
+fg
+vi ps.strace
+
+vi check_process.c
